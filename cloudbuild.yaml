@@ -1,4 +1,3 @@
 steps:
   - name: gcr.io/cloud-builders/gsutil
-    args: ["-m", "rsync", "-r", "-c", "-d", "./", "gs://www.hideawayrestaurant.ca
-"]
+    args: ["-m", "rsync", "-r", "-c", "-d", "./vision/explore-api", "gs://www.hideawayrestaurant.ca"]
